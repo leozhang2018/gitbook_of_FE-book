@@ -5,6 +5,7 @@
 
 贡献者列表：
  - [Leozhang2018][1]
+ - [RyanChill94][2]
 
 这是一份人人都能够触手可及的前端开发教程，它概述和讨论了前端工程中的实践过程
 即：如何学？以及学习过程中所需要的工具。
@@ -57,3 +58,4 @@
 
 
   [1]: https://twitter.com/Leozhang2018
+  [2]: https://github.com/RyanChill94
