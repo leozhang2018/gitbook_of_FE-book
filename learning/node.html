@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Learn node.js | 前端开发手册</title>
+        <title>学习 node.js | 前端开发手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.2.0">
@@ -38,7 +38,7 @@
     <body>
         
         
-    <div class="book" data-level="3.1.23" data-basepath=".." data-revision="Fri Feb 05 2016 14:20:33 GMT+0800 (CST)">
+    <div class="book" data-level="3.1.23" data-basepath=".." data-revision="Sun Feb 28 2016 16:23:40 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -595,7 +595,7 @@
                         
                             <b>3.1.21.</b>
                         
-                        Learn web dev tools
+                        了解浏览器开发工具
                     </a>
             
             
@@ -610,7 +610,7 @@
                         
                             <b>3.1.22.</b>
                         
-                        Learn command line
+                        学习命令行
                     </a>
             
             
@@ -625,7 +625,7 @@
                         
                             <b>3.1.23.</b>
                         
-                        Learn node.js
+                        学习 node.js
                     </a>
             
             
@@ -640,7 +640,7 @@
                         
                             <b>3.1.24.</b>
                         
-                        Learn module loader
+                        了解模块加载器
                     </a>
             
             
@@ -655,7 +655,7 @@
                         
                             <b>3.1.25.</b>
                         
-                        Learn package managers
+                        学习包管理器
                     </a>
             
             
@@ -1540,20 +1540,21 @@
                     
                         <h1 id="learn-node-js">Learn node.js</h1>
 <blockquote>
-<p>Node.js is an open-source, cross-platform runtime environment for developing server-side web applications. Node.js applications are written in JavaScript and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, NonStop,[3] IBM AIX, IBM System z and IBM i. Its work is hosted and supported by the Node.js Foundation,[4] a collaborative project at Linux Foundation.[5] </p>
-<p>Node.js provides an event-driven architecture and a non-blocking I/O API designed to optimize an application&apos;s throughput and scalability for real-time web applications. It uses Google V8 JavaScript engine to execute code, and a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in library to allow applications to act as a web server without software such as Apache HTTP Server, Nginx or IIS. - wikipedia</p>
+<p>Node.js&#x662F;&#x4E00;&#x4E2A;&#x5F00;&#x653E;&#x6E90;&#x4EE3;&#x7801;&#x3001;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x3001;&#x53EF;&#x7528;&#x4E8E;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x548C;&#x7F51;&#x7EDC;&#x5E94;&#x7528;&#x7684;&#x8FD0;&#x884C;&#x73AF;&#x5883;&#x3002;Node.js &#x5E94;&#x7528; JavaScript &#x8BED;&#x8A00;&#x5199;&#x6210;&#xFF0C;&#x5728; Node.js &#x8FD0;&#x884C;&#x65F6;&#x8FD0;&#x884C;&#x3002;&#x5B83;&#x652F;&#x6301; OS X&#x3001;Microsoft Windows&#x3001;Linux&#x3001;FreeBSD&#x3001;NonStop&#x3001;IBM AIX&#x3001;IBM System z &#x548C; IBM i&#x3002;Node.js &#x7531; Node.js &#x57FA;&#x91D1;&#x4F1A;&#x62E5;&#x6709;&#x548C;&#x7EF4;&#x62A4;&#xFF0C;&#x8BE5;&#x57FA;&#x91D1;&#x4F1A;&#x4E0E;Linux&#x57FA;&#x91D1;&#x4F1A;&#x6709;&#x5408;&#x4F5C;&#x5173;&#x7CFB;&#x3002;
+Node.js &#x63D0;&#x4F9B;&#x4E8B;&#x4EF6;&#x9A71;&#x52A8;&#x548C;&#x975E;&#x963B;&#x585E; I/O API&#xFF0C;&#x53EF;&#x4F18;&#x5316;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x541E;&#x5410;&#x91CF;&#x548C;&#x89C4;&#x6A21;&#x3002;&#x8FD9;&#x4E9B;&#x6280;&#x672F;&#x901A;&#x5E38;&#x88AB;&#x7528;&#x4E8E;&#x5B9E;&#x65F6;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x3002;</p>
+<p>Node.js &#x91C7;&#x7528; Google &#x7684; V8 &#x5F15;&#x64CE;&#x6765;&#x6267;&#x884C;&#x4EE3;&#x7801;&#x3002;Node.js &#x7684;&#x5927;&#x90E8;&#x5206;&#x57FA;&#x672C;&#x6A21;&#x5757;&#x90FD;&#x662F;&#x7528; JavaScript &#x5199;&#x6210;&#x7684;&#x3002;Node.js &#x542B;&#x6709;&#x4E00;&#x7CFB;&#x5217;&#x5185;&#x6A21;&#x5757;&#xFF0C;&#x4F7F;&#x5F97;&#x7A0B;&#x5E8F;&#x53EF;&#x4EE5;&#x4F5C;&#x4E3A;&#x72EC;&#x7ACB;&#x670D;&#x52A1;&#x5668;&#x8FD0;&#x884C;&#xFF0C;&#x4ECE;&#x800C;&#x8131;&#x79BB; Apache HTTPServer &#x6216; IIS &#x8FD0;&#x884C;&#x3002;Node.js &#x6B63;&#x5728;&#x5411;&#x670D;&#x52A1;&#x5668;&#x7AEF;&#x5E73;&#x53F0;&#x53D1;&#x5C55;&#xFF0C;&#x5E76;&#x5DF2;&#x88AB;IBM&#x3001;Microsoft&#x3001;Yahoo!&#x3001;Walmart&#x3001;Groupon&#x3001;SAP&#x3001;LinkedIn&#x3001;Rakuten&#x3001;PayPal&#x3001;Voxer &#x548C; GoDaddy &#x7B49;&#x91C7;&#x7528;&#x3002;-&#x7EF4;&#x57FA;&#x767E;&#x79D1;</p>
 </blockquote>
-<h5 id="general-learning">General learning:</h5>
+<h5 id="%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%9A">&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF1A;</h5>
 <ul>
-<li><a href="https://github.com/maxogden/art-of-node#the-art-of-node" target="_blank">The Art of Node</a> [read]</li>
-<li><a href="http://www.pluralsight.com/courses/node-intro" target="_blank">Introduction to Node.js</a> [watch][$]</li>
-<li><a href="https://www.eventedmind.com/classes/introduction-to-node-js-4c0326de" target="_blank">Introduction to Node.js from Evented Mind</a> [watch][$]</li>
-<li><a href="http://www.pluralsight.com/courses/running-node-applications-io-js" target="_blank">io.js and Node.js Next: Getting Started</a> [watch][$]</li>
-<li><a href="https://learnallthenodes.com/episodes/1-what-is-nodejs" target="_blank">Learn all the nodes</a> [watch]</li>
-<li><a href="https://leanpub.com/nodebeginner" target="_blank">The Node Beginner Book</a> [read][$]</li>
+<li><a href="https://github.com/maxogden/art-of-node#the-art-of-node" target="_blank">Node &#x7684;&#x827A;&#x672F;</a>  [&#x9605;&#x8BFB;]</li>
+<li><a href="http://www.pluralsight.com/courses/node-intro" target="_blank">Node.js &#x4ECB;&#x7ECD;</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="https://www.eventedmind.com/classes/introduction-to-node-js-4c0326de" target="_blank">Introduction to Node.js from Evented Mind</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="http://www.pluralsight.com/courses/running-node-applications-io-js" target="_blank">io.js &#x548C; Node.js &#x8D77;&#x6B65;</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="https://learnallthenodes.com/episodes/1-what-is-nodejs" target="_blank">&#x5B66;&#x4E60; Node.js</a> [&#x89C2;&#x770B;]</li>
+<li><a href="https://leanpub.com/nodebeginner" target="_blank">&#x5199;&#x7ED9;&#x521D;&#x5B66;&#x8005;&#x7684; Node &#x624B;&#x518C;</a>  [&#x9605;&#x8BFB;][$]</li>
 <li><a href="http://nodeschool.io/" target="_blank">Nodeschool.io</a> [code]</li>
-<li><a href="http://teamtreehouse.com/library/nodejs-basics" target="_blank">Node.js Basics</a> [watch][$]</li>
-<li><a href="https://www.manning.com/books/node-js-in-practice#downloads" target="_blank">Node.js in Practice</a> [read][$]</li>
+<li><a href="http://teamtreehouse.com/library/nodejs-basics" target="_blank">Node.js &#x57FA;&#x7840;</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="https://www.manning.com/books/node-js-in-practice#downloads" target="_blank">Node.js &#x5B9E;&#x8DF5;</a>  [&#x9605;&#x8BFB;][$]</li>
 </ul>
 
                     
@@ -1565,10 +1566,10 @@
         </div>
 
         
-        <a href="../learning/cli.html" class="navigation navigation-prev " aria-label="Previous page: Learn command line"><i class="fa fa-angle-left"></i></a>
+        <a href="../learning/cli.html" class="navigation navigation-prev " aria-label="Previous page: 学习命令行"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../learning/module.html" class="navigation navigation-next " aria-label="Next page: Learn module loader"><i class="fa fa-angle-right"></i></a>
+        <a href="../learning/module.html" class="navigation navigation-next " aria-label="Next page: 了解模块加载器"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
