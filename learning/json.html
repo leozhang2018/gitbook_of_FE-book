@@ -38,7 +38,7 @@
     <body>
         
         
-    <div class="book" data-level="3.1.17" data-basepath=".." data-revision="Sun Feb 28 2016 16:23:40 GMT+0800 (CST)">
+    <div class="book" data-level="3.1.17" data-basepath=".." data-revision="Sun May 01 2016 21:11:13 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -670,7 +670,7 @@
                         
                             <b>3.1.26.</b>
                         
-                        Learn version control
+                        学习版本控制
                     </a>
             
             
@@ -685,7 +685,7 @@
                         
                             <b>3.1.27.</b>
                         
-                        Learn build &amp; task automation
+                        学习自动化构建工具
                     </a>
             
             
@@ -700,7 +700,7 @@
                         
                             <b>3.1.28.</b>
                         
-                        Learn site performance optimization
+                        学习网站性能优化
                     </a>
             
             
@@ -715,7 +715,7 @@
                         
                             <b>3.1.29.</b>
                         
-                        Learn JS testing
+                        学习 JS 测试
                     </a>
             
             
@@ -1540,26 +1540,28 @@
                     
                         <h1 id="learn-json-javascript-object-notation">Learn JSON (JavaScript Object Notation)</h1>
 <blockquote>
-<p>JSON, (canonically pronounced sometimes JavaScript Object Notation), is an open standard format that uses human-readable text to transmit data objects consisting of attribute&#x2013;value pairs. It is the primary data format used for asynchronous browser/server communication (AJAJ), largely replacing XML (used by AJAX).</p>
-<p>Although originally derived from the JavaScript scripting language, JSON is a language-independent data format. Code for parsing and generating JSON data is readily available in many programming languages.</p>
-<p>The JSON format was originally specified by Douglas Crockford. It is currently described by two competing standards, RFC 7159 and ECMA-404. The ECMA standard is minimal, describing only the allowed grammar syntax, whereas the RFC also provides some semantic and security considerations. The official Internet media type for JSON is application/json. The JSON filename extension is .json. - wikipedia</p>
+<p>JSON(JavaScript Object Notation) &#x662F;&#x4E00;&#x79CD;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x6570;&#x636E;&#x4EA4;&#x6362;&#x683C;&#x5F0F;&#x3002; &#x6613;&#x4E8E;&#x4EBA;&#x9605;&#x8BFB;&#x548C;&#x7F16;&#x5199;&#x3002;&#x540C;&#x65F6;&#x4E5F;&#x6613;&#x4E8E;&#x673A;&#x5668;&#x89E3;&#x6790;&#x548C;&#x751F;&#x6210;&#x3002; &#x5B83;&#x57FA;&#x4E8E;JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999&#x7684;&#x4E00;&#x4E2A;&#x5B50;&#x96C6;&#x3002; JSON&#x91C7;&#x7528;&#x5B8C;&#x5168;&#x72EC;&#x7ACB;&#x4E8E;&#x8BED;&#x8A00;&#x7684;&#x6587;&#x672C;&#x683C;&#x5F0F;&#xFF0C;&#x4F46;&#x662F;&#x4E5F;&#x4F7F;&#x7528;&#x4E86;&#x7C7B;&#x4F3C;&#x4E8E;C&#x8BED;&#x8A00;&#x5BB6;&#x65CF;&#x7684;&#x4E60;&#x60EF;&#xFF08;&#x5305;&#x62EC;C, C++, C#, Java, JavaScript, Perl, Python&#x7B49;&#xFF09;&#x3002; &#x8FD9;&#x4E9B;&#x7279;&#x6027;&#x4F7F;JSON&#x6210;&#x4E3A;&#x7406;&#x60F3;&#x7684;&#x6570;&#x636E;&#x4EA4;&#x6362;&#x8BED;&#x8A00;&#x3002;</p>
+<p>JSON&#x5EFA;&#x6784;&#x4E8E;&#x4E24;&#x79CD;&#x7ED3;&#x6784;&#xFF1A;</p>
+<pre><code>- &#x201C;&#x540D;&#x79F0;/&#x503C;&#x201D;&#x5BF9;&#x7684;&#x96C6;&#x5408;&#xFF08;A collection of name/value pairs&#xFF09;&#x3002;&#x4E0D;&#x540C;&#x7684;&#x8BED;&#x8A00;&#x4E2D;&#xFF0C;&#x5B83;&#x88AB;&#x7406;&#x89E3;&#x4E3A;&#x5BF9;&#x8C61;&#xFF08;object&#xFF09;&#xFF0C;&#x7EAA;&#x5F55;&#xFF08;record&#xFF09;&#xFF0C;&#x7ED3;&#x6784;&#xFF08;struct&#xFF09;&#xFF0C;&#x5B57;&#x5178;&#xFF08;dictionary&#xFF09;&#xFF0C;&#x54C8;&#x5E0C;&#x8868;&#xFF08;hash table&#xFF09;&#xFF0C;&#x6709;&#x952E;&#x5217;&#x8868;&#xFF08;keyed list&#xFF09;&#xFF0C;&#x6216;&#x8005;&#x5173;&#x8054;&#x6570;&#x7EC4; &#xFF08;associative array&#xFF09;&#x3002;
+- &#x503C;&#x7684;&#x6709;&#x5E8F;&#x5217;&#x8868;&#xFF08;An ordered list of values&#xFF09;&#x3002;&#x5728;&#x5927;&#x90E8;&#x5206;&#x8BED;&#x8A00;&#x4E2D;&#xFF0C;&#x5B83;&#x88AB;&#x7406;&#x89E3;&#x4E3A;&#x6570;&#x7EC4;&#xFF08;array&#xFF09;&#x3002;
+</code></pre><p>&#x8FD9;&#x4E9B;&#x90FD;&#x662F;&#x5E38;&#x89C1;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x3002;&#x4E8B;&#x5B9E;&#x4E0A;&#x5927;&#x90E8;&#x5206;&#x73B0;&#x4EE3;&#x8BA1;&#x7B97;&#x673A;&#x8BED;&#x8A00;&#x90FD;&#x4EE5;&#x67D0;&#x79CD;&#x5F62;&#x5F0F;&#x652F;&#x6301;&#x5B83;&#x4EEC;&#x3002;&#x8FD9;&#x4F7F;&#x5F97;&#x4E00;&#x79CD;&#x6570;&#x636E;&#x683C;&#x5F0F;&#x5728;&#x540C;&#x6837;&#x57FA;&#x4E8E;&#x8FD9;&#x4E9B;&#x7ED3;&#x6784;&#x7684;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x4E4B;&#x95F4;&#x4EA4;&#x6362;&#x6210;&#x4E3A;&#x53EF;&#x80FD;&#x3002;</p>
 </blockquote>
-<h5 id="general-learning">General learning:</h5>
+<h5 id="%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0">&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x5B66;&#x4E60;:</h5>
 <ul>
 <li><a href="http://www.amazon.com/Introduction-JavaScript-Object-Notation-Point/dp/1491929480/ref=pd_sim_sbs_14_1" target="_blank">Introduction to JavaScript Object Notation: A To-the-Point Guide to JSON</a> [read][$]</li>
 <li><a href="https://www.json.com/" target="_blank">json.com</a> [read]</li>
 <li><a href="https://mijingo.com/lessons/what-is-json/" target="_blank">What is JSON</a> [watch]</li>
 </ul>
-<h5 id="references-docs">References/docs:</h5>
+<h5 id="%E5%8F%82%E8%80%83%E5%8F%8A%E6%96%87%E6%A1%A3">&#x53C2;&#x8003;&#x53CA;&#x6587;&#x6863;:</h5>
 <ul>
 <li><a href="http://json.org/" target="_blank">json.org/</a> [read]</li>
 </ul>
-<h5 id="standards-specifications">Standards/specifications:</h5>
+<h5 id="s%E6%A0%87%E5%87%86%E5%92%8C%E8%A7%84%E8%8C%83">S&#x6807;&#x51C6;&#x548C;&#x89C4;&#x8303;:</h5>
 <ul>
 <li><a href="http://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf" target="_blank">ECMA-404 The JSON Data Interchange Format</a></li>
 <li><a href="https://tools.ietf.org/html/rfc7159" target="_blank">RFC 7159 The JavaScript Object Notation (JSON) Data Interchange Format</a></li>
 </ul>
-<h5 id="architecting">Architecting:</h5>
+<h5 id="%E6%9E%B6%E6%9E%84">&#x67B6;&#x6784;:</h5>
 <ul>
 <li><a href="http://jsonapi.org/" target="_blank">JSON API</a></li>
 </ul>

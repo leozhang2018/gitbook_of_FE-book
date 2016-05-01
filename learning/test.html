@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Learn JS testing | 前端开发手册</title>
+        <title>学习 JS 测试 | 前端开发手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.2.0">
@@ -38,7 +38,7 @@
     <body>
         
         
-    <div class="book" data-level="3.1.29" data-basepath=".." data-revision="Sun Feb 28 2016 16:23:40 GMT+0800 (CST)">
+    <div class="book" data-level="3.1.29" data-basepath=".." data-revision="Sun May 01 2016 21:11:13 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -670,7 +670,7 @@
                         
                             <b>3.1.26.</b>
                         
-                        Learn version control
+                        学习版本控制
                     </a>
             
             
@@ -685,7 +685,7 @@
                         
                             <b>3.1.27.</b>
                         
-                        Learn build &amp; task automation
+                        学习自动化构建工具
                     </a>
             
             
@@ -700,7 +700,7 @@
                         
                             <b>3.1.28.</b>
                         
-                        Learn site performance optimization
+                        学习网站性能优化
                     </a>
             
             
@@ -715,7 +715,7 @@
                         
                             <b>3.1.29.</b>
                         
-                        Learn JS testing
+                        学习 JS 测试
                     </a>
             
             
@@ -1538,19 +1538,19 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="learn-js-testing">Learn JS Testing</h1>
+                        <h1 id="%E5%AD%A6%E4%B9%A0-js-%E6%B5%8B%E8%AF%95">&#x5B66;&#x4E60; JS &#x6D4B;&#x8BD5;</h1>
 <blockquote>
-<p><strong>unit testing</strong> - In computer programming, unit testing is a software testing method by which individual units of source code, sets of one or more computer program modules together with associated control data, usage procedures, and operating procedures, are tested to determine whether they are fit for use. Intuitively, one can view a unit as the smallest testable part of an application. - Wikipedia</p>
-<p><strong>functional testing</strong> - Functional testing is a quality assurance (QA) process and a type of black box testing that bases its test cases on the specifications of the software component under test. Functions are tested by feeding them input and examining the output, and internal program structure is rarely considered (not like in white-box testing). Functional testing usually describes what the system does. - Wikipedia</p>
-<p><strong>integration testing</strong> - Integration testing (sometimes called integration and testing, abbreviated I&amp;T) is the phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing. Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system testing. - wikipedia</p>
+<p><strong>&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF08;unit testing&#xFF09;</strong> - &#x5728;&#x8BA1;&#x7B97;&#x673A;&#x7F16;&#x7A0B;&#x4E2D;&#xFF0C;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF08;&#x82F1;&#x8BED;&#xFF1A;Unit Testing&#xFF09;&#x53C8;&#x79F0;&#x4E3A;&#x6A21;&#x5757;&#x6D4B;&#x8BD5;, &#x662F;&#x9488;&#x5BF9;&#x7A0B;&#x5E8F;&#x6A21;&#x5757;&#xFF08;&#x8F6F;&#x4EF6;&#x8BBE;&#x8BA1;&#x7684;&#x6700;&#x5C0F;&#x5355;&#x4F4D;&#xFF09;&#x6765;&#x8FDB;&#x884C;&#x6B63;&#x786E;&#x6027;&#x68C0;&#x9A8C;&#x7684;&#x6D4B;&#x8BD5;&#x5DE5;&#x4F5C;&#x3002;&#x7A0B;&#x5E8F;&#x5355;&#x5143;&#x662F;&#x5E94;&#x7528;&#x7684;&#x6700;&#x5C0F;&#x53EF;&#x6D4B;&#x8BD5;&#x90E8;&#x4EF6;&#x3002;&#x5728;&#x8FC7;&#x7A0B;&#x5316;&#x7F16;&#x7A0B;&#x4E2D;&#xFF0C;&#x4E00;&#x4E2A;&#x5355;&#x5143;&#x5C31;&#x662F;&#x5355;&#x4E2A;&#x7A0B;&#x5E8F;&#x3001;&#x51FD;&#x6570;&#x3001;&#x8FC7;&#x7A0B;&#x7B49;&#xFF1B;&#x5BF9;&#x4E8E;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#xFF0C;&#x6700;&#x5C0F;&#x5355;&#x5143;&#x5C31;&#x662F;&#x65B9;&#x6CD5;&#xFF0C;&#x5305;&#x62EC;&#x57FA;&#x7C7B;&#xFF08;&#x8D85;&#x7C7B;&#xFF09;&#x3001;&#x62BD;&#x8C61;&#x7C7B;&#x3001;&#x6216;&#x8005;&#x6D3E;&#x751F;&#x7C7B;&#xFF08;&#x5B50;&#x7C7B;&#xFF09;&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p>
+<p><strong>&#x9ED1;&#x76D2;&#x6D4B;&#x8BD5;&#xFF08;functional testing&#xFF09;</strong> - &#x9ED1;&#x76D2;&#x6D4B;&#x8BD5;&#xFF0C;&#x8F6F;&#x4EF6;&#x6D4B;&#x8BD5;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x4E4B;&#x4E00;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x79F0;&#x4E3A;&#x529F;&#x80FD;&#x6D4B;&#x8BD5;&#x3001;&#x6570;&#x636E;&#x9A71;&#x52A8;&#x6D4B;&#x8BD5;&#x6216;&#x57FA;&#x4E8E;&#x89C4;&#x683C;&#x8BF4;&#x660E;&#x7684;&#x6D4B;&#x8BD5;&#x3002;&#x6D4B;&#x8BD5;&#x8005;&#x4E0D;&#x4E86;&#x89E3;&#x7A0B;&#x5E8F;&#x7684;&#x5185;&#x90E8;&#x60C5;&#x51B5;&#xFF0C;&#x4E0D;&#x9700;&#x5177;&#x5907;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x4EE3;&#x7801;&#x3001;&#x5185;&#x90E8;&#x7ED3;&#x6784;&#x548C;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x4E13;&#x95E8;&#x77E5;&#x8BC6;&#x3002;&#x53EA;&#x77E5;&#x9053;&#x7A0B;&#x5E8F;&#x7684;&#x8F93;&#x5165;&#x3001;&#x8F93;&#x51FA;&#x548C;&#x7CFB;&#x7EDF;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x8FD9;&#x662F;&#x4ECE;&#x7528;&#x6237;&#x7684;&#x89D2;&#x5EA6;&#x9488;&#x5BF9;&#x8F6F;&#x4EF6;&#x754C;&#x9762;&#x3001;&#x529F;&#x80FD;&#x53CA;&#x5916;&#x90E8;&#x7ED3;&#x6784;&#x8FDB;&#x884C;&#x6D4B;&#x8BD5;&#xFF0C;&#x800C;&#x4E0D;&#x8003;&#x8651;&#x7A0B;&#x5E8F;&#x5185;&#x90E8;&#x903B;&#x8F91;&#x7ED3;&#x6784;&#x3002;&#x6D4B;&#x8BD5;&#x6848;&#x4F8B;&#x662F;&#x4F9D;&#x5E94;&#x7528;&#x7CFB;&#x7EDF;&#x5E94;&#x8BE5;&#x505A;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x7167;&#x89C4;&#x8303;&#x3001;&#x89C4;&#x683C;&#x6216;&#x8981;&#x6C42;&#x7B49;&#x8BBE;&#x8BA1;&#x3002;&#x6D4B;&#x8BD5;&#x8005;&#x9009;&#x62E9;&#x6709;&#x6548;&#x8F93;&#x5165;&#x548C;&#x65E0;&#x6548;&#x8F93;&#x5165;&#x6765;&#x9A8C;&#x8BC1;&#x662F;&#x5426;&#x6B63;&#x786E;&#x7684;&#x8F93;&#x51FA;&#x3002;&#x6B64;&#x6D4B;&#x8BD5;&#x65B9;&#x6CD5;&#x53EF;&#x9002;&#x5408;&#x5927;&#x90E8;&#x5206;&#x7684;&#x8F6F;&#x4EF6;&#x6D4B;&#x8BD5;&#xFF0C;&#x5982;&#x96C6;&#x6210;&#x6D4B;&#x8BD5;&#xFF08;integration testing&#xFF09;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x6D4B;&#x8BD5;&#xFF08;system testing&#xFF09;&#x3002;</p>
+<p><strong>&#x96C6;&#x6210;&#x6D4B;&#x8BD5;&#xFF08;integration testing&#xFF09;</strong> - &#x6574;&#x5408;&#x6D4B;&#x8BD5;&#x53C8;&#x79F0;&#x7EC4;&#x88C5;&#x6D4B;&#x8BD5;&#xFF0C;&#x5373;&#x5BF9;&#x7A0B;&#x5E8F;&#x6A21;&#x5757;&#x91C7;&#x7528;&#x4E00;&#x6B21;&#x6027;&#x6216;&#x589E;&#x6B96;&#x65B9;&#x5F0F;&#x7EC4;&#x88C5;&#x8D77;&#x6765;&#xFF0C;&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x63A5;&#x53E3;&#x8FDB;&#x884C;&#x6B63;&#x786E;&#x6027;&#x68C0;&#x9A8C;&#x7684;&#x6D4B;&#x8BD5;&#x5DE5;&#x4F5C;&#x3002;&#x6574;&#x5408;&#x6D4B;&#x8BD5;&#x4E00;&#x822C;&#x5728;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x4E4B;&#x540E;&#x3001;&#x7CFB;&#x7EDF;&#x6D4B;&#x8BD5;&#x4E4B;&#x524D;&#x8FDB;&#x884C;&#x3002;&#x5B9E;&#x8DF5;&#x8868;&#x660E;&#xFF0C;&#x6709;&#x65F6;&#x6A21;&#x5757;&#x867D;&#x7136;&#x53EF;&#x4EE5;&#x5355;&#x72EC;&#x5DE5;&#x4F5C;&#xFF0C;&#x4F46;&#x662F;&#x5E76;&#x4E0D;&#x80FD;&#x4FDD;&#x8BC1;&#x7EC4;&#x88C5;&#x8D77;&#x6765;&#x4E5F;&#x53EF;&#x4EE5;&#x540C;&#x65F6;&#x5DE5;&#x4F5C;&#x3002;</p>
 </blockquote>
-<h5 id="general-learning">General learning:</h5>
+<h5 id="%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86">&#x57FA;&#x7840;&#x77E5;&#x8BC6;:</h5>
 <ul>
-<li><a href="http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps" target="_blank">Front-End First: Testing and Prototyping JavaScript Apps</a> [watch][$]</li>
-<li><a href="http://www.letscodejavascript.com/" target="_blank">Let&#x2019;s Code: Test-Driven JavaScript</a> [watch][$]</li>
-<li><a href="http://jstesting.jcoglan.com/" target="_blank">JavaScript Testing Recipes</a> [read][$]</li>
-<li><a href="http://www.amazon.com/gp/product/1449323391/ref=pd_lpo_sbs_dp_ss_3" target="_blank">Testable JavaScript</a> [read][$]</li>
-<li><a href="http://tddjs.com/" target="_blank">Test-Driven JavaScript Development</a> [read][$]</li>
+<li><a href="http://www.pluralsight.com/courses/testing-and-prototyping-javascript-apps" target="_blank">Front-End First: Testing and Prototyping JavaScript Apps</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="http://www.letscodejavascript.com/" target="_blank">Let&#x2019;s Code: Test-Driven JavaScript</a> [&#x89C2;&#x770B;][$]</li>
+<li><a href="http://jstesting.jcoglan.com/" target="_blank">JavaScript Testing Recipes</a> [&#x9605;&#x8BFB;][$]</li>
+<li><a href="http://www.amazon.com/gp/product/1449323391/ref=pd_lpo_sbs_dp_ss_3" target="_blank">Testable JavaScript</a> [&#x9605;&#x8BFB;][$]</li>
+<li><a href="http://tddjs.com/" target="_blank">Test-Driven JavaScript Development</a> [&#x9605;&#x8BFB;][$]</li>
 </ul>
 
                     
@@ -1562,7 +1562,7 @@
         </div>
 
         
-        <a href="../learning/perf.html" class="navigation navigation-prev " aria-label="Previous page: Learn site performance optimization"><i class="fa fa-angle-left"></i></a>
+        <a href="../learning/perf.html" class="navigation navigation-prev " aria-label="Previous page: 学习网站性能优化"><i class="fa fa-angle-left"></i></a>
         
         
         <a href="../learning/headless-browsers.html" class="navigation navigation-next " aria-label="Next page: Learn headless browsers"><i class="fa fa-angle-right"></i></a>
