@@ -1,7 +1,7 @@
 # 前端手册
 
 原文由 [Cody Lindley](http://codylindley.com/) 编写,[Frontend Masters](https://frontendmasters.com/) 提供赞助。
-此项目为原文的中文翻译版本。
+此项目为原文的中文翻译版本,由贡献者翻译，并且在原有基础上做一些本地化（CN）的修补。
 
 贡献者列表：
  - [Leozhang2018][1]
@@ -40,17 +40,17 @@
 
 
 
-**欢迎有兴趣的前端开发者参与翻译，同时也欢迎大家提出改进意见，尽情 PR,么么哒**: 
+**欢迎有兴趣的前端开发者参与翻译，同时也欢迎大家提出改进意见，尽情 PR,么么哒**:
 
 * [https://github.com/leozhang2018/front-end-handbook](https://github.com/leozhang2018/front-end-handbook)
 
 ***
 
-**在线阅读**: 
+**在线阅读**:
 
 * [http://fe.leozhang2018.me](http://fe.leozhang2018.me)
- 
-**.pdf, .epub, or .mobi 下载**: 
+
+**.pdf, .epub, or .mobi 下载**:
 
 * [https://www.gitbook.com/book/frontendmasters/front-end-handbook/details](https://www.gitbook.com/book/frontendmasters/front-end-handbook/details)
 
