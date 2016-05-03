@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>了解互联网/Web | 前端开发手册</title>
+        <title>学习 JS 模板 | 前端开发手册</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.2.0">
@@ -27,10 +27,10 @@
         
     
     
-    <link rel="next" href="../learning/browsers.html" />
+    <link rel="next" href="../learning/static.html" />
     
     
-    <link rel="prev" href="../learning/self-direct-learning.html" />
+    <link rel="prev" href="../learning/json.html" />
     
 
         
@@ -38,7 +38,7 @@
     <body>
         
         
-    <div class="book" data-level="3.2.1" data-basepath=".." data-revision="Tue May 03 2016 22:23:07 GMT+0800 (CST)">
+    <div class="book" data-level="3.2.17" data-basepath=".." data-revision="Tue May 03 2016 22:23:07 GMT+0800 (CST)">
     
 
 <div class="book-summary">
@@ -301,7 +301,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="3.2.1" data-path="learning/internet.html">
+        <li class="chapter " data-level="3.2.1" data-path="learning/internet.html">
             
                 
                     <a href="../learning/internet.html">
@@ -541,7 +541,7 @@
             
         </li>
     
-        <li class="chapter " data-level="3.2.17" data-path="learning/templates.html">
+        <li class="chapter active" data-level="3.2.17" data-path="learning/templates.html">
             
                 
                     <a href="../learning/templates.html">
@@ -1604,17 +1604,13 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="%E4%BA%86%E8%A7%A3%E4%BA%92%E8%81%94%E7%BD%91-web">&#x4E86;&#x89E3;&#x4E92;&#x8054;&#x7F51;/Web</h1>
-<blockquote>
-<p>&#x4E92;&#x8054;&#x7F51;&#xFF08;&#x82F1;&#x8BED;&#xFF1A;Internet&#xFF09;&#xFF0C;&#x662F;&#x7F51;&#x7EDC;&#x4E0E;&#x7F51;&#x7EDC;&#x4E4B;&#x95F4;&#x6240;&#x4E32;&#x8FDE;&#x6210;&#x7684;&#x5E9E;&#x5927;&#x7F51;&#x7EDC;&#xFF0C;&#x8FD9;&#x4E9B;&#x7F51;&#x7EDC;&#x4EE5;&#x4E00;&#x7EC4;&#x6807;&#x51C6;&#x7684;&#x7F51;&#x7EDC;TCP/IP&#x534F;&#x8BAE;&#x65CF;&#x76F8;&#x8FDE;&#xFF0C;&#x94FE;&#x63A5;&#x5168;&#x4E16;&#x754C;&#x51E0;&#x5341;&#x4EBF;&#x4E2A;&#x8BBE;&#x5907;&#xFF0C;&#x5F62;&#x6210;&#x903B;&#x8F91;&#x4E0A;&#x7684;&#x5355;&#x4E00;&#x5DE8;&#x5927;&#x56FD;&#x9645;&#x7F51;&#x7EDC;&#x3002;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x7F51;&#x7EDC;&#x7684;&#x7F51;&#x7EDC;[1]&#xFF0C;&#x5B83;&#x662F;&#x7531;&#x4ECE;&#x5730;&#x65B9;&#x5230;&#x5168;&#x7403;&#x8303;&#x56F4;&#x5185;&#x51E0;&#x767E;&#x4E07;&#x4E2A;&#x79C1;&#x4EBA;&#x7684;&#xFF0C;&#x653F;&#x5E9C;&#x7684;&#xFF0C;&#x5B66;&#x672F;&#x754C;&#x7684;&#xFF0C;&#x4F01;&#x4E1A;&#x7684;&#x548C;&#x653F;&#x5E9C;&#x7684;&#x7F51;&#x7EDC;&#x6240;&#x6784;&#x6210;&#xFF0C;&#x901A;&#x8FC7;&#x7535;&#x5B50;&#xFF0C;&#x65E0;&#x7EBF;&#x548C;&#x5149;&#x7EA4;&#x7F51;&#x7EDC;&#x6280;&#x672F;&#x7B49;&#x7B49;&#x4E00;&#x7CFB;&#x5217;&#x5E7F;&#x6CDB;&#x7684;&#x6280;&#x672F;&#x8054;&#x7CFB;&#x5728;&#x4E00;&#x8D77;&#x3002;&#x8FD9;&#x79CD;&#x5C06;&#x8BA1;&#x7B97;&#x673A;&#x7F51;&#x7EDC;&#x4E92;&#x76F8;&#x8054;&#x63A5;&#x5728;&#x4E00;&#x8D77;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x79F0;&#x4F5C;&#x201C;&#x7F51;&#x7EDC;&#x4E92;&#x8054;&#x201D;&#xFF0C;&#x5728;&#x8FD9;&#x57FA;&#x7840;&#x4E0A;&#x53D1;&#x5C55;&#x51FA;&#x8986;&#x76D6;&#x5168;&#x4E16;&#x754C;&#x7684;&#x5168;&#x7403;&#x6027;&#x4E92;&#x8054;&#x7F51;&#x7EDC;&#x79F0;&#x4E92;&#x8054;&#x7F51;&#xFF0C;&#x5373;&#x662F;&#x4E92;&#x76F8;&#x8FDE;&#x63A5;&#x4E00;&#x8D77;&#x7684;&#x7F51;&#x7EDC;&#x3002;&#x4E92;&#x8054;&#x7F51;&#x5E76;&#x4E0D;&#x7B49;&#x540C;&#x4E07;&#x7EF4;&#x7F51;&#xFF08;WWW&#xFF09;&#xFF0C;&#x4E07;&#x7EF4;&#x7F51;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x8D85;&#x6587;&#x672C;&#x76F8;&#x4E92;&#x94FE;&#x63A5;&#x800C;&#x6210;&#x7684;&#x5168;&#x7403;&#x6027;&#x7CFB;&#x7EDF;&#xFF0C;&#x4E14;&#x662F;&#x4E92;&#x8054;&#x7F51;&#x6240;&#x80FD;&#x63D0;&#x4F9B;&#x7684;&#x670D;&#x52A1;&#x5176;&#x4E2D;&#x4E4B;&#x4E00;&#x3002;&#x4E92;&#x8054;&#x7F51;&#x5E26;&#x6709;&#x8303;&#x56F4;&#x5E7F;&#x6CDB;&#x7684;&#x4FE1;&#x606F;&#x8D44;&#x6E90;&#x548C;&#x670D;&#x52A1;&#xFF0C;&#x4F8B;&#x5982;&#x76F8;&#x4E92;&#x5173;&#x7CFB;&#x7684;&#x8D85;&#x6587;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x8FD8;&#x6709;&#x4E07;&#x7EF4;&#x7F51;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x652F;&#x6301;&#x7535;&#x5B50;&#x90AE;&#x4EF6;&#x7684;&#x57FA;&#x7840;&#x8BBE;&#x65BD;&#xFF0C;&#x70B9;&#x5BF9;&#x70B9;&#x7F51;&#x7EDC;&#xFF0C;&#x6587;&#x4EF6;&#x5171;&#x4EAB;&#xFF0C;&#x4EE5;&#x53CA;IP&#x7535;&#x8BDD;&#x670D;&#x52A1;&#x3002;-&#x7EF4;&#x57FA;&#x767E;&#x79D1;</p>
-</blockquote>
+                        <h1 id="%E5%AD%A6%E4%B9%A0-js-%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E">&#x5B66;&#x4E60; JS &#x6A21;&#x677F;&#x5F15;&#x64CE;</h1>
+<p>&#x5E76;&#x4E0D;&#x662F;&#x6BCF;&#x4E00;&#x4E2A; JavaScript &#x6A21;&#x677F;&#x5F15;&#x64CE;&#x90FD;&#x662F; <a href="http://todomvc.com/" target="_blank">MV*</a> &#x6A21;&#x5F0F;&#xFF0C;&#x505A;&#x5230;&#x89C6;&#x56FE;&#x5C42;&#x7528;&#x6237;&#x754C;&#x9762;&#x4E0E;&#x903B;&#x8F91;&#x5C42;&#x6570;&#x636E;&#x7684;&#x5206;&#x79BB;</p>
+<p>JavaScript 2015 (&#x4E5F;&#x53EB; ES6) &#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x539F;&#x751F;&#x7684;&#x6A21;&#x677F;&#x673A;&#x5236; <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings" target="_blank">&quot;Templates strings&quot;</a>.</p>
 <ul>
-<li><a href="http://www.w3.org/wiki/How_does_the_Internet_work" target="_blank">&#x4E92;&#x8054;&#x7F51;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;</a> [&#x9605;&#x8BFB;]</li>
-<li><a href="http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm" target="_blank">&#x4E92;&#x8054;&#x7F51;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;?</a> [&#x9605;&#x8BFB;]</li>
-<li><a href="https://www.khanacademy.org/partner-content/code-org/internet-works" target="_blank"> &#x4E92;&#x8054;&#x7F51;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684; </a> [&#x89C2;&#x770B;]</li>
-<li><a href="https://www.youtube.com/watch?v=7_LPdttKXPc" target="_blank">5 &#x5206;&#x949F;&#x4E86;&#x89E3;&#x4E92;&#x8054;&#x7F51;&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684; </a> [&#x89C2;&#x770B;]</li>
-<li><a href="https://www.eventedmind.com/classes/how-the-web-works-7f40254c" target="_blank">Web &#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#x7684;</a> [&#x89C2;&#x770B;][$]</li>
-<li><a href="http://www.20thingsilearned.com/en-US/what-is-the-internet/1" target="_blank">&#x4E92;&#x8054;&#x7F51;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x300C;&#x4F60;&#x8BF4;&#x662F;&#x897F;&#x7EA2;&#x67FF;&#xFF0C;&#x6211;&#x8BF4;&#x662F; TCP/IP&#x300D;</a> [&#x9605;&#x8BFB;]</li>
+<li><a href="http://www.amazon.com/Instant-Handlebars-js-Gabriel-Manricks/dp/1783282657/ref=sr_1_1" target="_blank">Instant Handlebars.js</a> [read][$]</li>
+<li><a href="http://www.pluralsight.com/courses/handlebars-javascript-templating" target="_blank">JavaScript Templating with Handlebars</a> [watch][$]</li>
+<li><a href="http://tutorialzine.com/2015/01/learn-handlebars-in-10-minutes/" target="_blank">Learn Handlebars in 10 Minutes or Less</a> [read]</li>
 </ul>
 
                     
@@ -1626,10 +1622,10 @@
         </div>
 
         
-        <a href="../learning/self-direct-learning.html" class="navigation navigation-prev " aria-label="Previous page: 自学"><i class="fa fa-angle-left"></i></a>
+        <a href="../learning/json.html" class="navigation navigation-prev " aria-label="Previous page: 学习 JSON"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../learning/browsers.html" class="navigation navigation-next " aria-label="Next page: 了解 Web 浏览器"><i class="fa fa-angle-right"></i></a>
+        <a href="../learning/static.html" class="navigation navigation-next " aria-label="Next page: 了解静态站点生成器"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

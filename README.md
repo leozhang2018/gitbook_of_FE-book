@@ -1,7 +1,7 @@
 # 前端手册
 
 原文由 [Cody Lindley](http://codylindley.com/) 编写,[Frontend Masters](https://frontendmasters.com/) 提供赞助。
-此项目为原文的中文翻译版本。
+此项目为原文的中文翻译版本,并在原有的基础上做了一些本地化(CN)的增添修补,更符合国人的习惯。
 
 贡献者列表：
  - [Leozhang2018][1]
@@ -24,7 +24,8 @@
 
  * [https://www.gitbook.com/book/frontendmasters/front-end-handbook/details](https://www.gitbook.com/book/frontendmasters/front-end-handbook/details)
 
- ***
+***
+
 这是一份人人都能够触手可及的前端开发教程，它概述和讨论了前端工程中的实践过程
 即：如何学？以及学习过程中所需要的工具。
 
